@@ -10,7 +10,7 @@ Netty-IM is a IM system using netty as a communicating framework.
 
 
 # architecture 
-- [design](design.md)
+- [design](doc/design.md)
 
 
 # How to join in the project and develop

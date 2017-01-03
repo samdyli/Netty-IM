@@ -44,7 +44,9 @@ public class SecureChatServerInitializer extends ChannelInitializer<SocketChanne
         // and accept any invalid certificates in the client side.
         // You will need something more complicated to identify both
         // and server in the real world.
-        pipeline.addLast(sslCtx.newHandler(ch.alloc()));
+        if (null != sslCtx) {
+            pipeline.addLast(sslCtx.newHandler(ch.alloc()));
+        }
 
         // On top of the SSL handler, add the text line codec.
         pipeline.addLast(new DelimiterBasedFrameDecoder(8192, Delimiters.lineDelimiter()));

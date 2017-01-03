@@ -17,3 +17,8 @@ layer 1: api layer: connect manager, router
 layer 2: communication layer: transition protocol layer  
 
 layer 3: base service layer  
+
+
+# benchmark 
+- use ab - Apache HTTP server benchmarking tool as http sever benchmarking tool 
+-

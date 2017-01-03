@@ -5,7 +5,5 @@ package com.nettyim.config;
  *
  * @author samdyli
  */
-public interface ServerConfig {
-    boolean isSSL();
-    int serverPort();
+public interface XmlParser extends Parse {
 }
