@@ -16,6 +16,7 @@ Netty-IM is a IM system using netty as a communicating framework.
 # How to join in the project and develop
 
 - [How to join in ?](join.md)
+- [review by gerrit]
 
 # Resource about IM 
 - [Resource of IM](resource.md)
