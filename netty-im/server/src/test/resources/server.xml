@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration>
-   <server>
-      <port>8092</port>
+   <server id="3" port="8092">
+       <serverHandler>com.nettyim.server.boot.SecureChatServerHandler</serverHandler>
    </server>
+    <server id="2">
+        <port>8092</port>
+        <serverHandler>com.nettyim.server.boot.SecureChatServerHandler</serverHandler>
+    </server>
 </configuration>
