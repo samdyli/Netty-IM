@@ -64,7 +64,6 @@ public class DOMXmlConfigParser extends XmlConfigParser {
 
     public Map<String, String> walkNodes(Node input, @NeverNull String prefix) {
         Map<String, String> retMap = Maps.newHashMap();
-        if (input.)
 
         if (input.hasAttributes()) {
             NamedNodeMap nnm = input.getAttributes();
